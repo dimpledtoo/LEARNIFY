@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Rubik:wght@400;500&family=ZCOOL+XiaoWei&display=swap');
+:root {
+    --color1 : #46CAE8;
+    --color2 : #318EA2;
+    --color3 : #E846AB;
+    --color4 : #EDB941;
+    --neutral:#fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 4rem;
+    background-color: #F9FAFC;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+                   
+            /* NAV BAR */
+ .logo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+ }
+
+ ul li {
+    list-style: none;
+ }
+
+ ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 3px;
+    transition: all 0.25s ease;
+ }
+
+ .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 12px;
+}
+
+ul li :hover {
+    color: #219ab6;
+    border-bottom: 1px solid #219ab6;
+    padding-bottom: 4px;
+    margin-top: 3rem;
+}
+
+.action {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.act_btn {
+    width: 100px;
+    height: 35px;
+    color: var(--neutral);
+    border-radius: 50px;
+    background-color: var(--color1);
+    border: none;
+}
+
+/* CTA */
+
+.Hero {
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    
+}
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 4em;
+   
+}
+
+.cta_btn {
+    width: 120px;
+    height: 35px;
+    color: var(--neutral);
+    border-radius: 50px;
+    background-color: var(--color1);
+    border: none;
+}
+
+.squares {
+    display: flex;
+    gap: 5rem;
+}
+
+ .sq1, .sq2, .sq3{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color3);
+    color:var(--neutral);
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+ .sq2 {
+    background-color: var(--color2);
+ }
+
+ .sq3 {
+    background-color: var(--color4);
+ }
+
+
+
+
+ /* REASON SECTION */
+
+ .reason {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 4rem;
+    background-color: #F9FAFC;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info {
+    display: flex;
+   gap: 5rem;
+   margin-left: 13%;
+   text-align: center;
+}
+
+.cards {
+    width: 150px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+}
+
+.info img {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    width:40px;
+    margin: 20px 20px 30px 50px;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+.para {
+    font-size: 12px;
+}
+
+.gap {
+    display: flex;
+    gap: 3rem;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.gapimg img{
+    width: 400px; 
+    border-radius: 100px 50px 100px 50px;
+}
+
+.gap button {
+    width: 130px;
+    height: 35px;
+    color: var(--neutral);
+    border-radius: 50px;
+    background-color: var(--color1);
+    border: none;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: var(--color2);
+}
+
+
+
+/* ACCESS SECTION */
+
+.access {
+   width: 100%; 
+   height: 120vh;
+   padding: 1rem 4rem;
+   background-color: #F9FAFC;
+   font-family: 'Nunito', sans-serif;
+}
+
+.access1 {
+    display: flex;
+    position: relative;
+    gap: 4rem;
+    }
+
+    #book {
+        margin-right: -20px;
+    }
+
+
+  .ebooks h2 {
+    text-align: left;
+  }
+
+  .ebooks {
+    margin-top: 100px;
+    line-height: 30px;
+  }
+
+  .ebooks p {
+    margin-top: -20px;
+  }
+
+  .ebooks button {
+    width: 130px;
+    height: 35px;
+    color: var(--neutral);
+    border-radius: 50px;
+    background-color: var(--color1);
+    border: none;
+    margin-top: 30px;
+  }
+
+  .access2 {
+    margin-top: 30px;
+  }
+  .reviews {
+    display: flex;
+    gap: 5px;
+  }
+
+  .review1, .review2, .review3 {
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+  }
+
+  .review1 p, .review2 p, .review3 p {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .review2 p {
+    margin-top: 35px;
+  }
+  .review3 p {
+    margin-top: 20px;
+  }
+
+  .reviewtext {
+    margin-top: 20px;
+  }
+ 
+
+
+  /* FOOTER SECTION */
+
+  footer {
+    background-color: var(--color2);
+    width: 100%;
+    height: 70vh;
+    padding: 1rem 10rem;
+   font-family: 'Nunito', sans-serif;
+   color: var(--neutral);
+   padding-top: 40px;
+  }
+
+  .footnav {
+    display: flex;
+    gap: 10rem;
+    justify-content: space-between;
+  }
+
+  .navbar ul li a {
+    color: white;
+    line-height: 40px;
+  }
+
+  .navbar ul li a:hover {
+    border-bottom: 1px solid var(--neutral);
+    padding-bottom: 8px;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .trademark {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+  }
+
+
+ 
